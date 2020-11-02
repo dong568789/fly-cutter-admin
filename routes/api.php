@@ -13,7 +13,7 @@ use Illuminate\Http\Request;
 |
 */
 
-/*$router->middleware('auth:api')->get('user', function (Request $request) {
-    return $request->user();
+$router->api('v1', function($router){
+
+    $router->post('pass/log', 'PassController@log');
 });
-*/
