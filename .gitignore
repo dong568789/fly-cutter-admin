@@ -15,8 +15,6 @@ yarn-error.log
 /public/mix-manifest.json
 /.tags
 /.tags_sorted_by_file
-/.env
-/.htaccess
 /vendor/composer
 /vendor/autoload.php
 /laravel-echo-server.lock
