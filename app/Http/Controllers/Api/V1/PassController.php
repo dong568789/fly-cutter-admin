@@ -12,12 +12,12 @@ class PassController extends Controller
      *
      * @return Response
      */
-    public function index(Request $request)
+    public function log(Request $request)
     {
-        $body = $request->body();
+        $body = $request->getContent();
 
         logger()->info($body);
-        return $this->api();
+        return $this->success();
     }
 
 }
